@@ -2,7 +2,6 @@ Include /etc/ssh/sshd_config.d/*.conf
 Port 9020
 PermitRootLogin yes
 StrictModes no
-Stricthostkeychecking no
 PubkeyAuthentication no
 PasswordAuthentication yes
 PermitEmptyPasswords yes
