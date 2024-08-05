@@ -1,0 +1,5 @@
+#!/bin/bash
+ssh-keygen -f ~/.ssh/known_hosts -R 'googlex0'
+clear
+ssh -o Stricthostkeychecking=false -J serveo.net root@googlex0
+clear
